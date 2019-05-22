@@ -1,0 +1,11 @@
+	LD R1,10
+	LA R2,F00F
+	INC R1
+	LS r3,@R2
+	JMP AA
+	JZ BB
+	SUB R2,R1
+	MV		R1,r2
+	RET
+	PUSH R
+	
